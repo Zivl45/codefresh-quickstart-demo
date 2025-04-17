@@ -6,6 +6,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io/foreground
   annotations:
     codefresh.io/product: demo-trioapp
+  labels:
+    env: prod
 spec:
   project: default
   destination:
